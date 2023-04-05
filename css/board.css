@@ -37,10 +37,6 @@
 .paging_wrap .paging_box ul {padding:50px 0 0;text-align: center;}
 .paging_wrap .paging_box ul li {display: inline-block;vertical-align: middle;}
 .paging_wrap .paging_box ul li a {display: block;position: relative;font-weight: 300;font-size: 16px;color: #7b7b7b;box-sizing: border-box;}
-.paging_wrap .paging_box ul li.first a{width: 38px;height: 35px;background: url(/img/board/btn-first-page.gif) no-repeat center;}
-.paging_wrap .paging_box ul li.prev a{width: 33px;height: 35px;background: url(/img/board/btn-prev-page.gif) no-repeat center;}
-.paging_wrap .paging_box ul li.next a{width: 33px;height: 35px;background: url(/img/board/btn-next-page.gif) no-repeat center;}
-.paging_wrap .paging_box ul li.last a{width: 38px;height: 35px;background: url(/img/board/btn-last-page.gif) no-repeat center;}
 .paging_wrap .paging_box ul li:not(.pager) a {padding: 8px 0 9px;min-width: 33px;}
 .paging_wrap .paging_box ul li a.active {padding: 9px 0 10px;border: none;background-color: #49539E;color: #fff;}
 
