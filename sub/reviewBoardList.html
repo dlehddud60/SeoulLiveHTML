@@ -4,22 +4,20 @@
         <meta charset="UTF-8">
         <title>여행지 List</title>
             
+        <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="/css/review.css"> 
-        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
         <script src="https://kit.fontawesome.com/7ae3a6a91c.js" crossorigin="anonymous"></script>
+        
+        <script src="../js/list.js" defer></script>
+        <!-- tab -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-        <script src="./js/tab_menu.js"></script>
 
-        <!-- 캘린더 -->
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     </head>
 
     <body>
-    
-       
+        <!-- <%-- header --%> -->
+        <!-- <jsp:include page="/layout/header.jsp"/> -->
 
         <div id="container" class="list_wrap">
 
@@ -49,7 +47,27 @@
                 <li data-tab="menu4"><a href="#">전시회</a></li>
             </ul>
     
-            
+            <div id="menu1" class="tabcont on">
+                <h3>menu1</h3>
+                <p> This is menu1 content</p>
+            </div>
+    
+            <div id="menu2" class="tabcont">
+                <h3>menu2</h3>
+                <p> This is menu2 content</p>
+            </div>
+    
+            <div id="menu3" class="tabcont">
+                <h3>menu3</h3>
+                <p> This is menu3 content</p>
+            </div>
+    
+            <div id="menu4" class="tabcont">
+                <h3>menu4</h3>
+                <p> This is menu4 content</p>
+            </div>
+
+            <!-- list -->
             <div class="gridViewContainer">
 	
                 <div class="gridView-listItem">
@@ -231,26 +249,26 @@
                   </div>
                  </div>
                 </div>
-
-
-
-            
-    
-
-            
-            <div class="pagination">
-                <ul>
-                    <li class="fas fa-angle-left"></li>
-                    <li><a class="active" href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li class="fas fa-angle-right"></li>
-                </ul>
-            </div>
-
         </div>  
-<!-- ------------ -->
-        
+         
+        <div class="listWrap" id="list_container" style="display: block;"></div>
 
+ <!-- pagination -->
+ <div class="pagination_wrap">
+    <ul class="pagination">
+        <li class="fas fa-angle-left"></li>
+        <li><a class="active" href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li class="fas fa-angle-right"></li>
+    </ul>
+    <div class="btn_wrap">
+        <button class="write_btn"><a href="#">글쓰기</a></button>
+    </div>
+</div>
+</div>
+
+        <!-- <%-- quickmenu footer--%>
+        <jsp:include page="/layout/footer.jsp"/> -->
     </body>
 </html>
