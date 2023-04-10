@@ -27,9 +27,8 @@ height: 50px;width: 150px;padding-top: 17px;border: 1px solid #e3e3e3;border-bot
 .panelinner {
  padding: 20px 28px; height: 250px; } 
 .idpw { width: 400px; height: 90px; } 
-.idpw .inputlow:first-child { border-radius: 6px 6px 0 0; box-shadow: none; } 
-.idpw .inputlow:last-child { border-radius: 0 0 6px 6px; box-shadow: none; } 
-.idpw .inputlow { display: table; table-layout: fixed; width: 100%; padding: 14px 17px 13px; box-sizing: border-box; border: 0.6px solid rgb(180, 165, 165); } 
+
+.idpw .inputlow { display: table; table-layout: fixed; margin-top: 10px; width: 100%; padding: 14px 17px 13px; box-sizing: border-box; border: 0.6px solid rgb(180, 165, 165); } 
 .icon1 { margin-right: 10px; } 
 #UserInputText ,#UserInputTextps {
  width: 91%; font-size: 16px; font-weight: 100px; line-height: 19px; letter-spacing: -.5px; color: #222; box-sizing: border-box; z-index: 4; border: none; outline: none; }
@@ -51,7 +50,7 @@ height: 50px;width: 150px;padding-top: 17px;border: 1px solid #e3e3e3;border-bot
 .btnLoginKakao .btnText { font-size: 20px; font-weight: 700; line-height: 24px; color: #fff; } 
 
 .keepText { color: #777; } 
-.bottomIdbar li { position: relative; left: 70px; float: left; list-style:none; font-size: 13px; color: #777; margin-top: 40px; padding-right: 20px; margin-right: 20px; text-align: center; }
+.bottomIdbar li { position: relative; left: 70px; float: left; list-style:none; font-size: 13px; color: #777; padding-right: 20px; margin-right: 20px; text-align: center; }
 .bottomIdbar a { text-decoration-line: none; color: #777; }
 
 .bottomIdbar li:nth-of-type(1),.bottomIdbar li:nth-of-type(2) { border-right: 1px solid rgb(145, 145, 145);}
