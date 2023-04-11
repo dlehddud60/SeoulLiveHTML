@@ -5,7 +5,7 @@
     padding: 0;
 }
 ul,ol,li{
-    list-style: none;
+    list-style: none;git
 }
 a{
     text-decoration: none;
@@ -62,6 +62,17 @@ button{
   right: 0px;
 
 }
+
+/* 하트버튼 css */
+.heartButtonArea {top: 30px; } 
+.heartSvg { height: 3vh; width: 3vh; } 
+.like-button { display: none; } 
+.like-icon { cursor: pointer; display: inline-block; vertical-align: middle; } 
+.str0 { stroke:#ff4949; } 
+.fil0 { fill: #ffffff; } 
+.like-button:checked+svg .fil0 { fill: #ff4949; } 
+
+
 
 .viewBtn .btnList {
   padding-left: 30px; 
@@ -135,4 +146,5 @@ button{
   width: 100%;
   border-bottom: 1px solid #ddd;
 }
+
 

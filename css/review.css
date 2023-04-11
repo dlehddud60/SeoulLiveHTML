@@ -174,9 +174,9 @@ background: linear-gradient(
 .heartSvg { height: 5vh; width: 5vh; } 
 .like-button { display: none; } 
 .like-icon { cursor: pointer; display: inline-block; vertical-align: middle; } 
-.str0 { stroke:#a7a7a7; } 
+.str0 { stroke:#ff4949; } 
 .fil0 { fill: #ffffff; } 
-.like-button:checked+svg .fil0 { fill: #b40500; } 
+.like-button:checked+svg .fil0 { fill: #ff4949; } 
 
 
 
