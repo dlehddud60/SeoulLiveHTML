@@ -17,6 +17,11 @@ myButton.addEventListener('click', function() {
     myIcon.classList.add('far');
   }
 });
+// 좋아요 버튼 활성화
+$('.fa-heart').click(function() {
+	$(this).toggleClass('on');
+})
+
 
 const swiper = new Swiper(".swiper", {
     
