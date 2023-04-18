@@ -10,8 +10,9 @@ $(function() {
 });
 
 // 좋아요 버튼 활성화
-$('.listWrap  .list_thumType li.thum div.area_txt .fa-heart').click(function() {
-	$(this).addClass('on');
+var $heartIcon = $('.listWrap  .list_thumType li.thum div.area_txt .fa-heart');
+$heartIcon.click(function() {
+	$(this).toggleClass('on');
 })
 
 // calendar
