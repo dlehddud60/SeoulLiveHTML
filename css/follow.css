@@ -1,0 +1,19 @@
+@import url(/css/reset.css);
+
+
+#container{margin:0 auto;max-width:1200px;}
+.title_box{padding:0 0 50px;}
+.title_box h2{font-size:30px;line-height:40px;text-align:center;}
+
+.follow_wrap{display:flex;}
+.follow_wrap > div{flex:1;}
+.follow_wrap > div > p{padding-bottom:30px;margin-bottom:30px;border-bottom:2px solid #000;font-size:20px;line-height:25px;text-align:center;}
+.follow_wrap > div > p .num{padding-right:10px;color:#E76649;font-weight:bold;}
+.follow_wrap > div > ul{padding:0 30px;border-right:1px solid #000;}
+.follow_wrap > div:last-of-type > ul{border:none;}
+.follow_wrap .follow_list > li{display:flex;align-items: center;padding:20px 0;}
+.follow_wrap .follow_list > li > div{width:60px;height:60px;border:1px solid #333;border-radius:80px;overflow:hidden;}
+.follow_wrap .follow_list > li > div img{width:100%;heigth:100%:}
+.follow_wrap .follow_list > li > p{padding-left:30px;font-size:18px;}
+
+g
